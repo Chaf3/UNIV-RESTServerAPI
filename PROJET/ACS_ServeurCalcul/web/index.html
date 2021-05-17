@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Ma page d'envoi servlet</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body style="background-color:#d8a898;">
+        <form action="calculatrice" method="get">
+            
+            <h1 align="center">Mon service de calcul</h1>
+            
+            <p>
+                <label for="v1">Value 1 : </label>
+                <input id="v1" name="v1" type="text"/> 
+            </p>
+            <p>
+                <label for="v2">Value 2 ( Entrez la valeur 0 si vous voulez faire une operation unaire ): </label>
+                <input id="v2" name="v2" type="text"/> 
+            </p>
+
+            <p>
+
+                <select name="operator" size="1">
+                    <option name="operator" value="+">+</option>
+                    <option name="operator" value="-">-</option>
+                    <option name="operator" value="*">*</option>
+                    <option name="operator" value="/">/</option>
+                    <option name="operator" value="racine">racine</option>
+                    <option name="operator" value="inverse">inverse</option>
+                </select>
+
+
+            </p>
+
+            <p>
+                <input type="submit" value="Envoi de la requête"/>
+
+                <button id='clearButton' name='clear'>Clear</button>
+
+            </p>
+
+        </form>
+    </body>
+</html>
