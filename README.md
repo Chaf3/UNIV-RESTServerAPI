@@ -11,8 +11,7 @@ L'intégralité du projet a été réalisé via Netbeans et l'outil TomCat.
 
 Dans le répertoire suivant, vous retrouverez deux projets netbeans :
 
-    - Un premier projet Netbeans contenant l’application de la servlet à lancer. Il y a également une
-page html pour pouvoir tester le service.
+    - Un premier projet Netbeans contenant l’application de la servlet à lancer. Il y a également une page html pour pouvoir tester le service.
     - Un deuxième projet Netbeans contenant le client et les dataclass.
 
 Pour lancer le projet, il faut d’abord lancer la servlet et ensuite lancer le client en ajustant votre adresse locale dans les paramètres du projet. (Properties -> Run et changez le localhost :8080 par l’adresse qui correspond à votre machine). 
